@@ -2,6 +2,7 @@ from pygame import *
 '''Необходимые классы'''
 
 #класс-родитель для спрайтов 
+#это новый комментарий
 class GameSprite(sprite.Sprite):
     #конструктор класса
     def __init__(self, player_image, player_x, player_y, player_speed):
